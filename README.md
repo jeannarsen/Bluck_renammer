@@ -1,15 +1,14 @@
-# Bluck_renammer
 # Bulk File Renamer (Python)
 
 ## 📌 Description
-Ce projet est un script d'automatisation développé en Python. Il permet de parcourir un dossier ciblé, de filtrer les fichiers (par exemple, isoler uniquement les formats d'images), et de les renommer automatiquement en masse selon une nomenclature structurée (ex: `photo_1.jpg`, `photo_2.jpg`, etc.).
+This project is a Python-based automation tool designed to streamline file management. It scans a target directory, filters specific file extensions (such as isolating raw images), and renames them in bulk using a structured nomenclature (e.g., `photo_1.jpg`, `photo_2.jpg`).
 
-## 🚀 Fonctionnalités
-* **Ciblage sécurisé** : Utilisation de chemins absolus ou relatifs pour isoler le dossier de travail.
-* **Filtrage précis** : Analyse des extensions de fichiers grâce à la bibliothèque native `pathlib`.
-* **Indexation automatique** : Intégration d'un compteur dynamique pour éviter l'écrasement des fichiers.
-* **Approche Pro** : Conçu avec une logique de simulation ("Dry Run") pour valider les changements avant application.
+## 🚀 Features
+* **Targeted Scanning**: Utilizes absolute and relative path management to isolate the workspace.
+* **Smart Filtering**: Accurately analyzes file extensions using Python's native `pathlib` library.
+* **Dynamic Indexing**: Integrates an automatic counter to prevent file overwriting during batch processes.
+* **Safe Execution**: Built with a "Dry Run" simulation logic to validate file naming structures before making changes.
 
-## 🛠️ Technologies utilisées
+## 🛠️ Technologies Used
 * **Python 3.x**
-* Module natif : `pathlib` (Gestion des chemins et des flux de fichiers)
+* Native Module: `pathlib` (Advanced file system path manipulation)
